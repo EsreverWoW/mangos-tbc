@@ -141,7 +141,7 @@ namespace MaNGOS
             if (target->IsElite())
             {
                 if (target->GetMap()->IsNoRaid())
-                    xp_gain *= 2.5f;
+                    xp_gain *= 4.5f;
                 else
                     xp_gain *= 2.0f;
             }
